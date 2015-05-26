@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>N.H.</title>
+	<title>LTAcosta</title>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
 	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta name="robots" content="all" />
@@ -13,33 +14,61 @@
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->	
 	<style>
+		@font-face { font-family: Socicon; src: url('socicon.woff2') format('woff2'), url('socicon.woff') format('woff'); }
 		* { padding: 0; margin: 0; }
-		body { background-color: #333; }
-		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		html { width: 100%; height: 100%; }
+		body { background-color: #f9f9f9; width: 100%; height: 100%; }
+		h1 { color: #000; font-family: 'Merriweather Sans', sans-serif; font-size: 3.2em; letter-spacing: .2em; line-height: 1em; margin-bottom: .5em; -webkit-font-smoothing: antialiased; }
+		p { color: #000; font-family: Helvetica; font-size: 1em; line-height: 1.5em; margin-bottom: 1.4em; -webkit-font-smoothing: antialiased; }
+		a { color: #000; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
 		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
-		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
+		#about { position: absolute; top: 12%; left: 17%; display: inline-block; padding: 0 0 0 0; margin: 0 0 0 0 !important; }
+		#social { display: table; font-family: Socicon; font-size: 1.5em; margin-bottom: 1.4em; -webkit-font-smoothing: antialiased; margin: 0 auto 0 auto !important; }
+		#social a:link { color: #000; border-style: none; }
+		#social a:visited { color: #000; border-style: none; }
+		#social a:active { color: #000; border-style: none; }
+		#social a:hover { color: #000; border-style: none; }
+		a#twitter:hover { color: #55acee; }
+		a#gplus:hover { color: #dd4b39; }
+		a#stack:hover { color: #fe7a15; }
+		a#github:hover { color: #4183c4; }
+		a#linkedin:hover { color: #007bb5; }
+		a#mail:hover { color: #ffbb00; }
+		@media (max-width: 1080px) {
+			#about { left: 12%; }
+		}
+		@media (max-width: 750px) {
+			#about { left: 6%; }
+		}
+		@media (max-width: 600px) {
+			#about { left: 3%; }
+		}
+		@media (max-width: 480px) {
+			#backstretch img { opacity: 0.3; }
+		}
+		@media (max-height: 540px) {
+			#about { top: 6%; }
+		}
+		@media (max-height: 350px) {
+			#about { top: 3%; }
+			#about h1 { margin-bottom: .1em; }
 		}
 	</style>
 </head>	
     
 <body>
 
-<!-- swap out for a logo -->
-<div id="monogram">
-	<img src="monogram.png" />
-</div>
-
 <!-- swap out for information about yourself -->
 <div id="about">
-	<p>Naz Hamid is the founder and principal of <a href="http://weightshift.com">Weightshift</a>, a design studio in San Francisco and Chicago. Aside from client work, projects include the community-oriented site <a href="http://interhoods.org">Interhoods</a> and mobile web application, <a href="http://sitby.us">SitBy.Us</a>. The two projects codenamed <em>Suplex</em> and <em>Sleeperhold</em> are aiming to be launched in 2011.</p>
-	<p>He writes about design and tangential topics at <a href="http://weightshift.com/memo">Memo</a>, writes in 140 characters at <a href="http://twitter.com/weightshift">Twitter</a>, posts photos to <a href="http://flickr.com/absenter"/>Flickr</a>, creates 400x300px works-in-progress on <a href="http://dribbble.com/weightshift">Dribbble</a>, sometimes makes moving pictures on <a href="http://vimeo.com/weightshift">Vimeo</a>, records items of interest at <a href="http://svpply.com/weightshift">Svpply</a>, listens to all his music on <a href="http://www.rdio.com/people/weightshift/">Rdio</a> and answers the occasional question on <a href="http://www.quora.com/Naz-Hamid">Quora</a>. He also makes music as <a href="http://murdersandmysteries.com">Murders & Mysteries</a> and released an album in 2010.</p>
-	<p>A <a href="http://en.wikipedia.org/wiki/Third_culture_kid">third-culture kid</a>, Naz has lived on three continents and in three countries. He currently lives in San Francisco, California, a place where he feels comfortable in his own skin.</p> 
+	<h1 title="Lennon Acosta">LTACOSTA</h1>
+	<div id="social"> 
+		<a href="https://twitter.com/LTAcosta" id="twitter" title="Twitter: LTAcosta">a</a>&nbsp;
+		<a href="https://plus.google.com/+LennonAcosta/posts" id="gplus" title="Google+: LennonAcosta">c</a>&nbsp;
+		<a href="https://stackoverflow.com/users/1489214/ltacosta" id="stack" title="Stack Overflow: LTAcosta">(</a>&nbsp;
+		<a href="https://github.com/LTAcosta" id="github" title="GitHub: LTAcosta">Q</a>&nbsp;
+		<a href="https://www.linkedin.com/in/ltacosta" id="linkedin" title="LinkedIn: LTAcosta">j</a>&nbsp;
+		<a href="#" id="mail" title="Email: lennon (at) ltacosta (dot) com">@</a>
+	</div>
 </div>
 
 <!--include jquery & backstretch-->
@@ -48,12 +77,16 @@
 <script type="text/javascript">
 $(function(){
      $(window).resize(function(){
-         if($(this).width() >= 767){
-             $.backstretch("nh_bg.jpg", {speed: 150});
-         }
+         $.backstretch("bg_vector.png");
       })
       .resize();//trigger resize on page load
 });
+$("#mail").click( function(e) {
+    var username = "lennon", 
+          domain = "ltacosta.com";
+
+    window.location.href = "mailto:" + username + "@" + domain;
+} );
 </script>
 
 </body>	
